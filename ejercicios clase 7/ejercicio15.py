@@ -12,19 +12,21 @@ programa debe mostrar un mensaje según su elección:
 ● Si elige otra cosa → “Opción inválida”"""
 
 def imprimir_menu():
-    print("Ver datos")
-    print("Modificar datos")
-    print("Salir")
-    print("Opción inválida")
-imprimir_menu()                   
-opcion = int(input("Ingrese una opción del 1 al 3"))
+    print ("      Menú ")
+    print("1 - Ver datos ")
+    print("2 - Modificar datos ")
+    print("3 - Salir ")
+
+imprimir_menu()     
+
+opcion = int(input("Ingrese una opción del 1 al 3: "))
 
 if opcion == 1: 
-    print(f"Mostrando datos ... ,{imprimir_menu(opcion)}") 
+    print(f"Mostrando datos ... ") 
 elif opcion == 2:
-    print(f"Modificando datos ..., {imprimir_menu(opcion)}")
-elif opcion ==3:
-    print(f"Saliendo del sistema ..., {imprimir_menu(opcion)}")
+    print(f"Modificando datos ...")
+elif opcion == 3:
+    print(f"Saliendo del sistema ...")
 else:
     print("Opción Inválida") 
 
