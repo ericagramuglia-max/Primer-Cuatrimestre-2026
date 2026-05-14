@@ -2,9 +2,10 @@
 Situación: Crear una función que reciba un número y
 devuelva True si es par, False si es impar.
 """
-numpar = True
 
-def definir_par (numpar):
+
+def definir_par ():
+    umpar = True
     n = int(input("Ingrese un número: "))
     if n % 2 == 0:
         numpar = True
@@ -12,4 +13,4 @@ def definir_par (numpar):
         numpar = False
     return numpar 
 
-print("TRUE si es par, FALSE si es impar: ", definir_par(numpar))
+print("TRUE si es par, FALSE si es impar: ", definir_par())
