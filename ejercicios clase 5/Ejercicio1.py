@@ -2,12 +2,11 @@
 
 precio = float(input("Ingrese el precio de la golosina que sea comprar (0 para terminar): "))
 
-while precio > 0:            #"""precio !=0:  tambien resta numeros o se puede ingresar num negativos"""
+while precio > 0:            #precio !=0:  tambien resta numeros o se puede ingresar num negativos
     total = total + precio
     precio = float(input("Ingrese el precio de la golosina que sea comprar (0 para terminar): "))
 
-print ("El total a pagar es: ", total) 
-"""
+print ("El total a pagar es: ", total)"""
 
 
 """🛒 Ejercicio 1: Compras en el kiosco

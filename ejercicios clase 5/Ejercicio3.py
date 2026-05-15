@@ -8,13 +8,9 @@ Al terminar, mostrar "Game Over"."""
  
  
 life = 100
- 
- 
- 
 while life > 0:
     damage = int(input("Daño recibido(vida inicial: 100): "))
     life = life - damage
     print(f"Vida restante: {life}")
- 
-   
+
 print("Game Over")  
